@@ -1,7 +1,7 @@
 
 function showApiText()
 {
-    fetch('http://localhost:3000/hi')
+    fetch('https://charbel-api.herokuapp.com/hi')
   .then(response => response.json())
   .then(data => {
 
